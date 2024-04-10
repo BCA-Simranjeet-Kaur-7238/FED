@@ -1,0 +1,28 @@
+<html>
+<head>
+    <title>Music Search</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img id="spotifyLogo" src="https://martech.org/wp-content/uploads/2017/09/spotify-logo-1920x1080.jpg" alt="Spotify Logo">
+    <div class="container">
+        <h1>Search </h1>
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for artists or tracks...">
+            <button id="searchButton">Search</button>
+        </div>
+        <div id="tracksList" class="tracks-list"></div>
+        <div class="player">
+            <h2 class="songname"></h2>
+            <h3 class="songartist"></h3>
+            <audio controls id="audioPlayer"></audio>
+        </div>
+    </div>
+    <div class="playlist-container">
+        <h1>My Playlist</h1>
+        <div id="playlist" class="playlist">Playlist in empty! Please create your playlist.</div><br>
+        <button id="clearPlaylistButton">Clear Playlist</button><br><br>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
